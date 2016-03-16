@@ -4,6 +4,7 @@
 Plugin Name: Surbma - SMTP
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: External SMTP mail configuration via constants in wp-config.php.
+Network: True
 
 Version: 1.0.0
 

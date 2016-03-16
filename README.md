@@ -1,4 +1,4 @@
 Surbma - SMTP
 =============
 
-External SMTP mail configuration via constants in wp-config.php.
+External SMTP mail configuration via global variables in wp-config.php.
