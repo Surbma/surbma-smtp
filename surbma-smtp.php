@@ -6,7 +6,7 @@ Plugin URI: http://surbma.com/wordpress-plugins/
 Description: External SMTP mail configuration via constants in wp-config.php.
 Network: True
 
-Version: 1.0.0
+Version: 1.1.0
 
 Author: Surbma
 Author URI: http://surbma.com/
