@@ -5,7 +5,7 @@ Tags: smtp, email, multisite, mailgun, sendgrid, mandrill, amazon ses, ses
 Requires at least: 4.0
 Tested up to: 4.9
 Requires PHP: 5.6
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,11 +32,9 @@ This plugin is working with all SMTP servers and services, like Mailgun, SendGri
 
 *Example configuration:*
 
-```
-define('SURBMA_SMTP_HOST','smtp.mailgun.org');
-define('SURBMA_SMTP_USER','postmaster@surbma.com');
-define('SURBMA_SMTP_PASSWORD','bb2b************************4133');
-```
+    `define('SURBMA_SMTP_HOST','smtp.mailgun.org');`
+    `define('SURBMA_SMTP_USER','postmaster@surbma.com');`
+    `define('SURBMA_SMTP_PASSWORD','bb2b************************4133');`
 
 You can put these lines everywhere before the line, that says: "That's It. Pencils down"
 
@@ -68,6 +66,9 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.1 =
+- Minor change in description.
 
 = 2.0 =
 - Simple versioning.
