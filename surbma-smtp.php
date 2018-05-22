@@ -2,14 +2,14 @@
 
 /*
 Plugin Name: Surbma - SMTP
-Plugin URI: http://surbma.com/wordpress-plugins/
+Plugin URI: https://surbma.com/wordpress-plugins/
 Description: External SMTP mail configuration via constants in wp-config.php.
 Network: True
 
-Version: 1.1.0
+Version: 2.0
 
 Author: Surbma
-Author URI: http://surbma.com/
+Author URI: https://surbma.com/
 
 License: GPLv2
 
@@ -19,12 +19,6 @@ Domain Path: /languages/
 
 // Prevent direct access to the plugin
 if ( !defined( 'ABSPATH' ) ) exit( 'Good try! :)' );
-
-// Localization
-function surbma_smtp_init() {
-	load_plugin_textdomain( 'surbma-smtp', false, plugin_basename( dirname( __FILE__ ) ) . '/languages' );
-}
-add_action( 'plugins_loaded', 'surbma_smtp_init' );
 
 // Configures WordPress PHPMailer with values from wp-config.php
 function surbma_smtp_phpmailer( $phpmailer ) {

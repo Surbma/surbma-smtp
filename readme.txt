@@ -1,11 +1,12 @@
 === Surbma - SMTP ===
 Contributors: Surbma
-Donate link: http://surbma.com/wordpress-plugins/
+Donate link: https://surbma.com/donate/
 Tags: smtp, email, multisite, mailgun, sendgrid, mandrill, amazon ses, ses
 Requires at least: 4.0
-Tested up to: 4.4
-Stable tag: 1.0.0
-License: GPLv2
+Tested up to: 4.9
+Requires PHP: 5.6
+Stable tag: 2.0
+License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 External SMTP mail configuration via global variables in wp-config.php.
@@ -68,11 +69,15 @@ It is the reverse version of my last name. ;)
 
 == Changelog ==
 
-= 1.1.0 =
+= 2.0 =
+- Simple versioning.
+- Minor code optimizations.
+- Tested up to WordPress 4.9 version.
+- Tested with PHP 7.2 version.
 
+= 1.1.0 =
 - Allow only network activation in Multisite Networks.
 - Added detailed description.
 
 = 1.0.0 =
-
 - Initial release.
