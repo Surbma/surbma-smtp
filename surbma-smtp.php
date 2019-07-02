@@ -1,12 +1,12 @@
 <?php
 
 /*
-Plugin Name: Surbma - SMTP
+Plugin Name: Surbma | SMTP
 Plugin URI: https://surbma.com/wordpress-plugins/
 Description: External SMTP mail configuration via constants in wp-config.php.
 Network: True
 
-Version: 2.1
+Version: 2.2
 
 Author: Surbma
 Author URI: https://surbma.com/

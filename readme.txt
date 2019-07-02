@@ -1,11 +1,11 @@
-=== Surbma - SMTP ===
+=== Surbma | SMTP ===
 Contributors: Surbma
 Donate link: https://surbma.com/donate/
 Tags: smtp, email, multisite, mailgun, sendgrid, mandrill, amazon ses, ses
 Requires at least: 4.0
-Tested up to: 4.9
+Tested up to: 5.2
 Requires PHP: 5.6
-Stable tag: 2.1
+Stable tag: 2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,7 +23,7 @@ This plugin is working with all SMTP servers and services, like Mailgun, SendGri
 - `SURBMA_SMTP_USER` - User for the SMTP account.
 - `SURBMA_SMTP_PASSWORD` - Password for the SMTP account.
 
-*More available variables:*
+*Optional variables:*
 
 - `SURBMA_SMTP_PORT` - Port number for the SMTP server.
 - `SURBMA_SMTP_SECURE` - Choose SSL or TLS, if necessary for your SMTP server.
@@ -67,18 +67,29 @@ It is the reverse version of my last name. ;)
 
 == Changelog ==
 
+= 2.2 =
+
+Release date: 2019-07-02
+
+- Minor changes in title and description.
+- Tested up to WordPress 5.2 version.
+
 = 2.1 =
+
 - Minor change in description.
 
 = 2.0 =
+
 - Simple versioning.
 - Minor code optimizations.
 - Tested up to WordPress 4.9 version.
 - Tested with PHP 7.2 version.
 
 = 1.1.0 =
+
 - Allow only network activation in Multisite Networks.
 - Added detailed description.
 
 = 1.0.0 =
+
 - Initial release.
