@@ -3,8 +3,8 @@ Contributors: Surbma, CherryPickStudios
 Donate link: https://surbma.com/donate/
 Tags: smtp, email, multisite, mailgun, sendgrid, mandrill, amazon ses, ses
 Requires at least: 5.0
-Tested up to: 5.8
-Stable tag: 2.2
+Tested up to: 6.2
+Stable tag: 2.3
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -66,6 +66,13 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.3 =
+
+Release date: 2023-04-08
+
+- Minor code optimization.
+- Tested up to WordPress 6.2 version.
 
 = 2.2 =
 
