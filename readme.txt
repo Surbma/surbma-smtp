@@ -3,7 +3,7 @@ Contributors: Surbma, CherryPickStudios
 Donate link: https://surbma.com/donate/
 Tags: smtp, email, multisite, mailgun, sendgrid, mandrill, amazon ses, ses
 Requires at least: 5.0
-Tested up to: 6.2
+Tested up to: 6.4
 Stable tag: 2.3
 Requires PHP: 7.0
 License: GPLv2 or later
